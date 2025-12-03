@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ankita Ladde — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="brand">
+        <div class="logo">AL</div>
+        <h1 style="color:#fff">Ankita Ladde</h1>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="mobile-nav">
+        <button class="cta" onclick="scrollToSection('contact')">Hire Me</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="hero-left fade-up">
+          <div class="eyebrow">Hi, I'm available for freelance</div>
+          <h2>I'm <span class="accent">Ankita Ladde</span><br/>— a Frontend Developer who builds beautiful UI.</h2>
+          <p>I build responsive, accessible, and modern websites with a focus on clean UI and fast performance.
+          I like to solve problems and ship delightful experiences.</p>
+
+          <div class="hero-actions">
+            <button class="cta" onclick="scrollToSection('projects')">See Projects</button>
+            <button class="btn-outline" onclick="scrollToSection('contact')">Contact Me</button>
+          </div>
+        </div>
+
+        <div class="hero-right fade-up">
+          <div class="card-visual">
+            <!-- Placeholder image (replace with your screenshot) -->
+            <img src="picture.png" alt="project preview"/>
+            <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center">
+              <div style="font-weight:700">Featured Project</div>
+              <div style="color:var(--muted);font-size:13px">UI / Frontend</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="container">
+          <h3 class="section-title">About Me</h3>
+          <div style="background:var(--card-bg);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(3,6,20,0.12)">
+            <p style="margin:0;color:var(--muted)">I'm a frontend developer specializing in building exceptional digital experiences. I have experience with HTML, CSS, JavaScript, and modern tooling. I enjoy turning designs into polished, accessible interfaces and learning new tools and techniques.</p>
+            <p style="margin:0;color:var(--muted)"> I am a passionate Frontend Developer skilled in building responsive, user-friendly, and visually appealing web applications. With a strong understanding of frontend designing, I focus on writing clean, efficient code and ensuring seamless performance across all devices. I have expertise with HTML5, CSS3, JavaScript(ES6+), React.js, Tailwind CSS, Bootstrap, Git, GitHub, VS Code, Figma, Responsive design, and clean code practice. I Build dynamic and interactive user interfaces, Convert designs into pixel-perfect web pages, Optimize applications for speed and scalability, Ensure cross-browser and cross-device compatibility, Collaborate with teams.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="container">
+          <h3 class="section-title">Projects</h3> 
+          <div class="projects-grid">
+            <article class="project-card fade-up">
+              <img src="https://images.unsplash.com/photo-1507209696997-5c2b6b6b6b6b?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="project screenshot">
+              <div>
+                <div class="project-meta">
+                  <div class="proj-title">E-commerce shopping website</div>
+                  <div class="proj-desc">HTML · CSS  JS PHP</div>
+                </div>
+                <p class="proj-desc">A Userfrindly shopping website contains electronic components to buy as required & made from html, css and js as fronted and php mysql as a backend. </p>
+                <div class="proj-actions" style="margin-top:8px">
+                  <button class="btn view" onclick="window.open('#')">Live</button>
+                  <button class="btn code" onclick="window.open('https://github.com/Ankita-Ladde/')">Code</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card fade-up">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="project screenshot">
+              <div>
+                <div class="project-meta">
+                  <div class="proj-title">swiggy clone</div>
+                  <div class="proj-desc">REACTjs · Tailwindcss</div>
+                </div>
+                <p class="proj-desc">A website which is clone page of the swiggy/restaurants page i'll tried to make the exact shadow of the original application using the REACTjs and Tailwindcss.</p>
+                <div class="proj-actions" style="margin-top:8px">
+                  <button class="btn view" onclick="window.open('#')">Live</button>
+                  <button class="btn code" onclick="window.open('https://github.com/Ankita-Ladde/')">Code</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card fade-up">
+              <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="project screenshot">
+              <div>
+                <div class="project-meta">
+                  <div class="proj-title">Chatbot Application</div>
+                  <div class="proj-desc">Python </div>
+                </div>
+                <p class="proj-desc">A chatbot application to which we can chat ask questions get answers made from python language and some of the required packages of the python also use of generative Ai package.</p>
+                <div class="proj-actions" style="margin-top:8px">
+                  <button class="btn view" onclick="window.open('#')">Live</button>
+                  <button class="btn code" onclick="window.open('https://github.com/Ankita-Ladde/')">Code</button>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education">
+        <div class="container">
+          <h3 class="section-title">Education</h3>
+          <div class="edu-tree">
+            <div class="edu-item fade-up">
+              <div class="edu-dot"></div>
+              <div>
+                <div class="edu-year">2022 - 2025</div>
+                <div class="edu-details">Bachelor of Technology — Computer Science, Dbatu University</div>
+                <div class="edu-details">With percentage in CGPA 8.0</div>
+              </div>
+            </div>
+
+            <div class="edu-item fade-up">
+              <div class="edu-dot"></div>
+              <div>
+                <div class="edu-year">2018 - 2021</div>
+                <div class="edu-details">Ploytechnic — computer science, MGM's polytechnic</div>
+                <div class="edu-details">With percentage of 81.94</div>
+              </div>
+            </div>
+
+            <div class="edu-item fade-up">
+              <div class="edu-dot"></div>
+              <div>
+                <div class="edu-year">2018</div>
+                <div class="edu-details">Secondary School — B. P. School</div>
+                <div class="edu-details">With percentage of 86.40</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <div class="container">
+          <h3 class="section-title">Contact</h3>
+
+          <div class="contact-grid">
+            <div class="contact-card">
+              <p style="margin:0 0 12px;color:var(--muted)">Want to work together? Fill the form and I'll get back to you.</p>
+
+              <form onsubmit="handleForm(event)">
+                <label for="name">Name</label>
+                <input id="name" name="name" required placeholder="Your name">
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project"></textarea>
+
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+
+            <aside style="display:flex;flex-direction:column;gap:12px;align-items:flex-start">
+              <div style="background:var(--card-bg);padding:16px;border-radius:12px;min-width:220px;box-shadow:0 6px 18px rgba(3,6,20,0.12)">
+                <strong>Email</strong>
+                <div style="color:var(--muted);font-size:14px">yourname@example.com</div>
+              </div>
+
+              <div style="background:var(--card-bg);padding:16px;border-radius:12px;min-width:220px;box-shadow:0 6px 18px rgba(3,6,20,0.12)">
+                <strong>Location</strong>
+                <div style="color:var(--muted);font-size:14px">Chhatrapati Sambhajinagar, India</div>
+              </div>
+            </aside>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      © 2025 Ankita Ladde · Built with care
+    </footer>
+
+  </div>
+
+  <script>
+    // smooth scroll helper
+    function scrollToSection(id){
+      const el = document.getElementById(id);
+      if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+
+    // small reveal animation when elements are in viewport
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting) e.target.classList.add('visible');
+      });
+    },{threshold:0.12});
+
+    document.querySelectorAll('.fade-up').forEach(el=>{
+      observer.observe(el);
+      // allow css to animate
+      el.style.animationDelay = (Math.random()*0.25)+'s';
+    });
+
+    // faux form handler (replace with real backend/integration)
+    function handleForm(e){
+      e.preventDefault();
+      const name = e.target.name.value;
+      const email = e.target.email.value;
+      const message = e.target.message.value;
+      alert('Thanks '+name+' — I will email you at '+email+' soon!');
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
