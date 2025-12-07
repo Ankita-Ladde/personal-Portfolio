@@ -152,7 +152,6 @@
       }
     }
     
-
     @media (max-width:520px){
       header{padding:14px}
       .hero h2{font-size:28px}
@@ -161,8 +160,6 @@
     /* small animations */
     .fade-up{opacity:0;transform:translateY(8px);animation:fadeUp .6s ease forwards}
     @keyframes fadeUp{to{opacity:1;transform:none}}
-
-
 
     #skills .skills-grid {
   display: grid;
