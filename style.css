@@ -196,3 +196,27 @@
   box-shadow: 0 12px 26px rgba(3,6,20,0.18);
   color: #fff;
 }
+
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5b;
+  transform: translateY(-2px);
+}
+
+.whatsapp-icon {
+  width: 22px;
+  height: 22px;
+}

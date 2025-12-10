@@ -316,6 +316,17 @@
                   Download Resume
                 </a>
               </div>
+
+              <a 
+  href="https://wa.me/918857951647?text=Hi%20Ankita,%20I%20visited%20your%20portfolio!" 
+  target="_blank" 
+  class="whatsapp-btn"
+>
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="whatsapp-icon">
+  Chat on WhatsApp
+</a>
+
+
             </aside>
           </div>
         </div>
@@ -380,6 +391,16 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
         alert("Failed to send message.");
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector(".whatsapp-btn");
+  btn.style.opacity = 0;
+  setTimeout(() => {
+    btn.style.transition = "opacity 0.6s ease";
+    btn.style.opacity = 1;
+  }, 300);
+});
+
 
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
